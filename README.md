@@ -1,2 +1,6 @@
-# my-color-slider
-color slider activity
+# Activity: Color Slider 
+
+Crearive Coding Lab Spring 2020 
+Prof. Oliver Steele 
+
+
