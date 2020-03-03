@@ -8,6 +8,6 @@ function setup() {
 
 function draw() {
   // changes background color
-  // slider controls green value
-  background(0, slider1.value(), 0);
+  // greyscale - changes each RGB value equally 
+  background(slider1.value(), slider1.value(), slider1.value());
 }
