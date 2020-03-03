@@ -2,11 +2,12 @@ let slider1;
 
 function setup() {
   createCanvas(windowWidth, windowHeight); 
-  // greyscale slider
+  // returns value 0-255
   slider1 = createSlider(0, 255);
 }
 
 function draw() {
   // changes background color
-  background(slider1.value());
+  // slider controls green value
+  background(0, slider1.value(), 0);
 }
